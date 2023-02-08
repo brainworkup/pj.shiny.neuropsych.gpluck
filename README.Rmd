@@ -16,17 +16,18 @@ knitr::opts_chunk$set(
 # pj.shiny.neuropsych.gpluck
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+
 <!-- badges: end -->
 
 The goal of pj.shiny.neuropsych.gpluck is to ...
 
 ## Installation
 
-You can install the development version of pj.shiny.neuropsych.gpluck like so:
+You can install the development version of pj.shiny.neuropsych.gpluck from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("brainworkup/pj.shiny.neuropsych.gpluck")
 ```
 
 ## Example
@@ -38,13 +39,15 @@ library(pj.shiny.neuropsych.gpluck)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+What is special about using `README.Rmd` instead of just `README.md`?
+You can include R chunks like so:
 
 ```{r cars}
 summary(cars)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+`devtools::build_readme()` is handy for this.
 
 You can also embed plots, for example:
 
@@ -53,3 +56,8 @@ plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+
+## Code of Conduct
+
+Please note that the pj.shiny.neuropsych.gpluck project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

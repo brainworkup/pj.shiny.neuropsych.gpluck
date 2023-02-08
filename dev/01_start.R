@@ -27,12 +27,14 @@ golem::fill_desc(
   author_email = "j.trampush@gmail.com", # Your Email
   repo_url = "https://github.com/brainworkup/pj.shiny.neuropsych.gpluck" # The URL of the GitHub Repo (optional)
 )
+
 install.packages("pak", repos = sprintf(
   "https://r-lib.github.io/p/pak/stable/%s/%s/%s",
   .Platform$pkgType,
   R.Version()$os,
   R.Version()$arch
 ))
+
 ## Set {golem} options ----
 golem::set_golem_options()
 

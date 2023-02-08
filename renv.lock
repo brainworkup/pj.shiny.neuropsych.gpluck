@@ -742,6 +742,24 @@
       ],
       "Hash": "ff12ca5709353d465f548949fba4d0ee"
     },
+    "hunspell": {
+      "Package": "hunspell",
+      "Version": "3.0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "hunspell",
+      "RemoteRef": "hunspell",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemotePkgPlatform": "x86_64-apple-darwin17.0",
+      "RemoteSha": "3.0.2",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "digest"
+      ],
+      "Hash": "656219b6f3f605499d7cdbe208656639"
+    },
     "ini": {
       "Package": "ini",
       "Version": "0.3.1",
@@ -1460,6 +1478,26 @@
         "R"
       ],
       "Hash": "5f5a7629f956619d519205ec475fe647"
+    },
+    "spelling": {
+      "Package": "spelling",
+      "Version": "2.2.1",
+      "Source": "Repository",
+      "Repository": "https://ropensci.r-universe.dev",
+      "RemoteUrl": "https://github.com/ropensci/spelling",
+      "RemoteRef": "spelling",
+      "RemoteSha": "2.2.1",
+      "RemoteType": "standard",
+      "RemotePkgRef": "spelling",
+      "RemoteRepos": "https://ropensci.r-universe.dev",
+      "RemotePkgPlatform": "x86_64-apple-darwin17.0",
+      "Requirements": [
+        "commonmark",
+        "hunspell",
+        "knitr",
+        "xml2"
+      ],
+      "Hash": "8ed9f010f7caeb8586523088b7f23dcd"
     },
     "stringi": {
       "Package": "stringi",

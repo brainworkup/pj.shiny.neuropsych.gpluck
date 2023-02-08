@@ -46,7 +46,7 @@ usethis::use_test("app")
 # Documentation
 
 ## Vignette ----
-usethis::use_vignette("pj.shiny.neuropsych.gpluck")
+usethis::use_vignette("neuropsych_gpluck")
 devtools::build_vignettes()
 
 ## Code Coverage----
